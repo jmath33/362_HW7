@@ -5,11 +5,15 @@ def FB(y):
 
 	for x in range(1, 101):
 		
-		if x % 3 == 0:
+		if x % 3 == 0 and x % 5 == 0:
+			print("FizzBuzz")
+			tracks[2] = 1
+			continue
+		elif x % 3 == 0:
 			print("Fizz")
 			tracks[0] = 1
 			continue
-		if x % 5 == 0:
+		elif x % 5 == 0:
 			print("Buzz")
 			tracks[1] = 1
 			continue
