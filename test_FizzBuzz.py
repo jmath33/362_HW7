@@ -9,5 +9,8 @@ class testhw7(unittest.TestCase):
 	def test_hw7_1(self):
 		self.assertEqual(FizzBuzz.FB(1), 1)
 
+	def test_hw7_2(self):
+		self.assertEqual(FizzBuzz.FB(2), 1)
+
 if __name__ == '__main__':
 	unittest.main()
