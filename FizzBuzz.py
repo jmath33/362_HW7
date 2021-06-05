@@ -9,6 +9,10 @@ def FB(y):
 			print("Fizz")
 			tracks[0] = 1
 			continue
+		if x % 5 == 0:
+			print("Buzz")
+			tracks[1] = 1
+			continue
 		print(x)
 
 	return tracks[y]
